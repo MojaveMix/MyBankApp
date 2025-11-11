@@ -1,0 +1,183 @@
+{
+  "user": {
+    "id": "USR001",
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@email.com",
+    "phone": "+1 (555) 123-4567",
+    "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  "accounts": [
+    {
+      "id": "ACC001",
+      "type": "checking",
+      "name": "Main Checking",
+      "balance": 12543.8,
+      "accountNumber": "****4521",
+      "currency": "USD",
+      "color": "#2563eb"
+    },
+    {
+      "id": "ACC002",
+      "type": "savings",
+      "name": "Savings Account",
+      "balance": 45820.5,
+      "accountNumber": "****7832",
+      "currency": "USD",
+      "color": "#059669"
+    },
+    {
+      "id": "ACC003",
+      "type": "credit",
+      "name": "Credit Card",
+      "balance": -2340.25,
+      "accountNumber": "****9104",
+      "currency": "USD",
+      "limit": 10000,
+      "color": "#dc2626"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TXN001",
+      "accountId": "ACC001",
+      "type": "debit",
+      "category": "shopping",
+      "merchant": "Amazon",
+      "amount": -125.99,
+      "date": "2025-11-03T10:30:00Z",
+      "status": "completed",
+      "icon": "shopping-bag"
+    },
+    {
+      "id": "TXN002",
+      "accountId": "ACC001",
+      "type": "credit",
+      "category": "salary",
+      "merchant": "Tech Corp Inc.",
+      "amount": 3500.0,
+      "date": "2025-11-01T08:00:00Z",
+      "status": "completed",
+      "icon": "briefcase"
+    },
+    {
+      "id": "TXN003",
+      "accountId": "ACC001",
+      "type": "debit",
+      "category": "food",
+      "merchant": "Starbucks",
+      "amount": -8.5,
+      "date": "2025-11-02T15:45:00Z",
+      "status": "completed",
+      "icon": "coffee"
+    },
+    {
+      "id": "TXN004",
+      "accountId": "ACC002",
+      "type": "credit",
+      "category": "transfer",
+      "merchant": "From Checking",
+      "amount": 500.0,
+      "date": "2025-10-31T12:00:00Z",
+      "status": "completed",
+      "icon": "arrow-right-left"
+    },
+    {
+      "id": "TXN005",
+      "accountId": "ACC001",
+      "type": "debit",
+      "category": "utilities",
+      "merchant": "Electric Company",
+      "amount": -156.78,
+      "date": "2025-10-30T09:00:00Z",
+      "status": "completed",
+      "icon": "zap"
+    },
+    {
+      "id": "TXN006",
+      "accountId": "ACC003",
+      "type": "debit",
+      "category": "entertainment",
+      "merchant": "Netflix",
+      "amount": -15.99,
+      "date": "2025-10-29T14:20:00Z",
+      "status": "completed",
+      "icon": "tv"
+    },
+    {
+      "id": "TXN007",
+      "accountId": "ACC001",
+      "type": "debit",
+      "category": "transport",
+      "merchant": "Uber",
+      "amount": -23.5,
+      "date": "2025-10-28T18:30:00Z",
+      "status": "completed",
+      "icon": "car"
+    },
+    {
+      "id": "TXN008",
+      "accountId": "ACC001",
+      "type": "debit",
+      "category": "food",
+      "merchant": "Whole Foods",
+      "amount": -87.34,
+      "date": "2025-10-27T11:15:00Z",
+      "status": "completed",
+      "icon": "shopping-cart"
+    }
+  ],
+  "cards": [
+    {
+      "id": "CARD001",
+      "accountId": "ACC001",
+      "type": "debit",
+      "cardNumber": "4532 **** **** 4521",
+      "cardHolder": "SARAH JOHNSON",
+      "expiryDate": "12/27",
+      "cvv": "***",
+      "brand": "visa",
+      "color": "#1e40af"
+    },
+    {
+      "id": "CARD002",
+      "accountId": "ACC003",
+      "type": "credit",
+      "cardNumber": "5412 **** **** 9104",
+      "cardHolder": "SARAH JOHNSON",
+      "expiryDate": "08/26",
+      "cvv": "***",
+      "brand": "mastercard",
+      "color": "#991b1b"
+    }
+  ],
+  "quickActions": [
+    {
+      "id": "QA001",
+      "title": "Transfer",
+      "icon": "arrow-right-left",
+      "color": "#3b82f6",
+      "url": "/transfert"
+    },
+    {
+      "id": "QA002",
+      "title": "Pay Bills",
+      "icon": "receipt",
+      "color": "#8b5cf6",
+      "url": "/pay"
+    },
+    {
+      "id": "QA003",
+      "title": "Deposit",
+      "icon": "plus-circle",
+      "color": "#10b981",
+      "url": "/deposit"
+    },
+    {
+      "id": "QA004",
+      "title": "Scan",
+      "icon": "scan",
+      "color": "#f59e0b",
+      "url": "/scan"
+    }
+  ]
+}
